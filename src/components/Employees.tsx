@@ -12,7 +12,7 @@ export default function Employees({ onNavigate }: EmployeesProps) {
     <div id="employees-page-container" className="bg-[#0A0A0A]">
       
       {/* Hero Section */}
-      <section id="employees-hero" className="relative min-h-[60vh] flex items-center pt-36 pb-28 md:pt-44 md:pb-36 bg-dots-gold border-b border-gold/15">
+      <section id="employees-hero" className="relative min-h-[60vh] flex items-center pt-36 pb-28 md:pt-44 md:pb-36 bg-dots-gold border-b border-gold/15 overflow-hidden">
         <div className="absolute inset-0 bg-[#0A0A0A]/45 pointer-events-none" />
         
         {/* Geometric Background Circles from Editorial Aesthetic */}

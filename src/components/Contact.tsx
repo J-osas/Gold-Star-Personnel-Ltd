@@ -50,7 +50,7 @@ export default function Contact() {
   };
 
   return (
-    <div id="contact-page-container" className="pt-36 pb-28 md:pt-44 md:pb-36 bg-[#0A0A0A]">
+    <div id="contact-page-container" className="pt-36 pb-28 md:pt-44 md:pb-36 bg-[#0A0A0A] overflow-hidden w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}

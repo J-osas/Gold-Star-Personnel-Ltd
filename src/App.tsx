@@ -45,7 +45,7 @@ export default function App() {
   }, [location.pathname]);
 
   return (
-    <div id="full-app-viewport" className="relative min-h-screen bg-[#0A0A0A] text-[#F5F0E8] font-sans antialiased selection:bg-gold selection:text-pure-black">
+    <div id="full-app-viewport" className="relative min-h-screen w-full max-w-full overflow-x-hidden bg-[#0A0A0A] text-[#F5F0E8] font-sans antialiased selection:bg-gold selection:text-pure-black">
       
       {/* 1. Page Load Overlay Loader */}
       {isAppLoading && (
