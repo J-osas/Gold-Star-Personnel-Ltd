@@ -37,7 +37,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             <span className="text-xs uppercase tracking-widest text-off-white/50 font-sans">Connect with us:</span>
             {/* Direct Link to Facebook Profile */}
             <a 
-              href="https://facebook.com" 
+              href="https://www.facebook.com/profile.php?id=61551127563202" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 bg-[#1A1A1A] hover:bg-gold hover:text-pure-black border border-gold/10 hover:border-gold rounded-full text-gold transition-all duration-300 transform hover:-translate-y-1 shadow-md"

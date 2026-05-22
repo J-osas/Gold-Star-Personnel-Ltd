@@ -261,7 +261,7 @@ export default function Home({ onNavigate }: HomeProps) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center divide-y md:divide-y-0 md:divide-x divide-gold/15">
             
             {/* Stat 1 */}
-            <ScrollReveal delayMs={100} className="pt-6 md:pt-0">
+            <ScrollReveal delayMs={100} className="pb-5 md:pb-0">
               <div className="flex flex-col items-center">
                 <span className="text-4xl md:text-5.5xl text-gold font-serif leading-none font-bold mb-3 block">
                   <Counter end={20} suffix="" />
@@ -273,7 +273,7 @@ export default function Home({ onNavigate }: HomeProps) {
             </ScrollReveal>
 
             {/* Stat 2 */}
-            <ScrollReveal delayMs={200} className="pt-6 md:pt-0">
+            <ScrollReveal delayMs={200} className="pt-3.5 pb-5 md:pt-0 md:pb-0">
               <div className="flex flex-col items-center">
                 <span className="text-4xl md:text-5.5xl text-gold font-serif leading-none font-bold mb-3 block flex items-center justify-center gap-1">
                   <Counter end={5} suffix="" />
@@ -286,7 +286,7 @@ export default function Home({ onNavigate }: HomeProps) {
             </ScrollReveal>
 
             {/* Stat 3 */}
-            <ScrollReveal delayMs={300} className="pt-6 md:pt-0">
+            <ScrollReveal delayMs={300} className="pt-3.5 md:pt-0">
               <div className="flex flex-col items-center">
                 <span className="text-4xl md:text-5.5xl text-gold font-serif leading-none font-bold mb-3 block">
                   <Counter end={2} suffix="" />
@@ -383,13 +383,13 @@ export default function Home({ onNavigate }: HomeProps) {
                 <span className="text-xs text-off-white/50 uppercase tracking-widest font-mono">Reviews</span>
               </div>
               <div className="hidden sm:block w-px h-5 bg-gold/25" />
-              <div className="flex items-center gap-2">
-                <div className="flex text-gold">
+              <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
+                <div className="flex text-gold justify-center">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-gold stroke-none" />
                   ))}
                 </div>
-                <span className="text-xs text-white uppercase font-sans tracking-wide">
+                <span className="text-xs text-white uppercase font-sans tracking-wide text-center sm:text-left">
                   5.0 Rating based on verified reviews
                 </span>
               </div>
